@@ -9,11 +9,11 @@ public class WebStep {
     public void userGoToLoginPage() {
     }
 
-    @And("user input username {string}")
+    @And("user input username {}")
     public void userInputUsername(String username) {
     }
 
-    @And("user input pwd {string}")
+    @And("user input pwd {}")
     public void userInputPwd(String pwd) {
     }
 
@@ -23,5 +23,9 @@ public class WebStep {
 
     @Then("validation users can show side nav")
     public void validationUsersCanShowSideNav() {
+    }
+
+    @And("user click sign up button")
+    public void clickSignUpButton() {
     }
 }
