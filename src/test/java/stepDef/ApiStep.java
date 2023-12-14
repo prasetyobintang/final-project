@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class ApiStep {
-    @Given("prepare url for {string}")
+    @Given("prepare url for {}")
     public void prepareUrlFor(String url) {
     }
 
@@ -23,8 +23,8 @@ public class ApiStep {
         
     }
 
-    @And("hit api post create new users")
-    public void hitApiPostCreateNewUsers() {
+    @And("hit api post create new users {}")
+    public void hitApiPostCreateNewUsers(String name) {
         
     }
 
